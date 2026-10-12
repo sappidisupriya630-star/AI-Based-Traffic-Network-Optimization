@@ -1,0 +1,59 @@
+{
+    "dataset": "traffic.csv",
+    "total_records": 48120,
+    "training_records": 38496,
+    "testing_records": 9624,
+    "features": [
+        "Junction",
+        "hour",
+        "day_of_week",
+        "month",
+        "day"
+    ],
+    "target": "Vehicles",
+    "selected_model": "Random Forest Regressor",
+    "best_metrics": {
+        "MAE": 4.6639,
+        "MSE": 53.6261,
+        "RMSE": 7.323,
+        "R2": 0.8684
+    },
+    "all_models": {
+        "Decision Tree Regressor": {
+            "MAE": 5.5047,
+            "MSE": 89.768,
+            "RMSE": 9.4746,
+            "R2": 0.7797
+        },
+        "Random Forest Regressor": {
+            "MAE": 4.6639,
+            "MSE": 53.6261,
+            "RMSE": 7.323,
+            "R2": 0.8684
+        },
+        "SVR": {
+            "MAE": 8.6537,
+            "MSE": 190.8686,
+            "RMSE": 13.8155,
+            "R2": 0.5317
+        },
+        "KNN Regressor": {
+            "MAE": 8.3742,
+            "MSE": 144.1999,
+            "RMSE": 12.0083,
+            "R2": 0.6462
+        },
+        "XGBoost Regressor": {
+            "MAE": 4.8578,
+            "MSE": 56.4205,
+            "RMSE": 7.5114,
+            "R2": 0.8616
+        },
+        "Gradient Boosting Regressor": {
+            "MAE": 7.3789,
+            "MSE": 116.4468,
+            "RMSE": 10.7911,
+            "R2": 0.7143
+        }
+    }
+}
